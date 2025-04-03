@@ -32,6 +32,8 @@ Upon acceptance and publication of the manuscript, this repository will include:
 4.  **Documentation:**
     *   Clear instructions on setting up the environment, preparing the data, running the code, and understanding the framework components.
 
+5.  **Detailed Ablation Results:**
+    *   Comprehensive tables showing the per-dataset performance breakdown for the component-wise prompt ablation study presented in the paper (Summary in Table 6). Provided in formats like `.csv` or `.md`.
 ---
 
 Feel free to contact [Zehui Lin](mailto:p2316858@mpu.edu.mo) or [Tao Tan](mailto:taotan@mpu.edu.mo) for any urgent inquiries regarding the paper.
