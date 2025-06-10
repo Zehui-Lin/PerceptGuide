@@ -7,7 +7,7 @@ This repository provides the official PyTorch implementation for our work publis
 - Support for diverse ultrasound datasets with both segmentation and classification annotations (**$M^2-US$ dataset**).
 - Distributed training and inference pipelines based on the Swin Transformer backbone.
 
-For more details, please refer to the [paper](https://www.sciencedirect.com/science/article/abs/pii/S1361841525001860) ([temporary free link, expires on July 17, 2025](https://authors.elsevier.com/c/1lAXd4rfPmLew4)),
+For more details, please refer to the [paper](https://www.sciencedirect.com/science/article/abs/pii/S1361841525001860) ([temporary free link, expires on July 17, 2025](https://authors.elsevier.com/c/1lAXd4rfPmLew4)) and [Project Page](https://zehui-lin.github.io/PerceptGuide/),
 
 > [**An orchestration learning framework for ultrasound imaging: Prompt-guided hyper-perception and attention-matching Downstream Synchronization**](https://www.sciencedirect.com/science/article/abs/pii/S1361841525001860)<br/>
   Zehui Lin, Shuo Li, Shanshan Wang, Zhifan Gao, Yue Sun, Chan-Tong Lam, Xindi Hu, Xin Yang, Dong Ni, and Tao Tan. <b>Medical Image Analysis</b>, 2025.
