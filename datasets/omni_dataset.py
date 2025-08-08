@@ -187,9 +187,8 @@ def get_enhanceImg(image, mask):
     if mask.sum() == 0:
         return image, False
     else:
-        # mask[mask > 0] = 255
         bin_mark = mask.copy()
-        bin_mark[bin_mark > 0] = 1
+        bin_mark[bin_mark > 0] = 255
         enhance_image = image + (np.expand_dims(bin_mark, axis=2) * 0.1).astype("uint8")
         return enhance_image, True
 
