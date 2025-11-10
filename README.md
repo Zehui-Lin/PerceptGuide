@@ -101,9 +101,14 @@ The folder structure should look like:
 pretrained_ckpt
 └── swin_tiny_patch4_window7_224.pth
 ```
+
 ## Checkpoint
 
-You can download the pre-trained checkpoints from the [release](https://github.com/Zehui-Lin/PerceptGuide/releases/tag/v1.0.0) pages.
+**Notice on Pre-trained Model Availability**
+
+To ensure full compliance with the Research Use Agreement of the [EchoNet-Dynamic](https://echonet.github.io/dynamic/index.html) dataset, which was used in training, the pre-trained model checkpoint previously available for download has been removed.
+
+The dataset's license agreement places restrictions on the distribution of derivative works. We apologize for any inconvenience this may cause and encourage users to train the model from scratch using the provided source code.
 
 
 ## Citation
