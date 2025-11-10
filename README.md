@@ -80,6 +80,12 @@ The repository bundles several ultrasound datasets. Their licenses and redistrib
 - **Private-license datasets** (UDIAT, EchoNet-Dynamic) cannot be redistributed here; please request access through the provided links.  
 - **Unspecified/unclear-license datasets** (TN3K, TG3K, DDTI) may have redistribution restrictions. Download them directly from the source or contact the data owners for permission.
 
+**Critical Update (2025-11-10):** The v1.0.0 data bundle contained significant issues in the `BUS-BRA` (incorrect patient-level splits) and `Appendix` (labeling errors) datasets. A corrected version **v1.0.1** has been released. **We strongly advise all users to download the latest version.**
+
+You can download the corrected and preprocessed datasets from our latest release:
+- **[v1.0.1 (Latest) - Critical Data Correction](https://github.com/Zehui-Lin/PerceptGuide/releases/tag/v1.0.1)**
+- [v1.0.0 (Legacy, Not Recommended)](https://github.com/Zehui-Lin/PerceptGuide/releases/tag/v1.0.0)
+
 ## Training
 We employ `torch.distributed` for multi-GPU training (single GPU is also supported):
 ```bash
